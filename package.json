@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@metamask/smart-accounts-kit": "^1.6.0",
     "@rainbow-me/rainbowkit": "^2.2.11",
     "@tailwindcss/postcss": "^4.3.0",
     "@tanstack/react-query": "latest",

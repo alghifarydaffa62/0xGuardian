@@ -1,15 +1,12 @@
 'use client'
-
-import { useConnect, useConnection, useConnectors, useDisconnect } from 'wagmi'
+import Navbar from "@/components/Navbar"
 
 function App() {
-  const connection = useConnection()
-  const { connect, status, error } = useConnect()
-  const connectors = useConnectors()
-  const { disconnect } = useDisconnect()
-
   return (
     <>
+      <div className="py-5">
+        <Navbar/>
+      </div>
       
     </>
   )
